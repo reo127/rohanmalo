@@ -378,6 +378,12 @@ section .title::after{
 .teams .title::after{
     content: "What you get";
 }
+
+.teams #rohan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -581,6 +587,10 @@ footer span a:hover{
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
+    }
+
+    .teams #rohan{
+        display: block;
     }
 }
 @media (max-width: 947px){
