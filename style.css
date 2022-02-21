@@ -447,6 +447,11 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
 }
+
+.contact #illustration{
+    width: -webkit-fill-available;
+}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
